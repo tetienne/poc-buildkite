@@ -12,6 +12,12 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 class TestBlind:
+    def test_broken_2(self):
+      assert 1 == 0
+
+    def test_broken(self):
+      assert 1 == 0
+
     @fixture(scope="class")
     def device(self):
         api = SomfyApi("foo", "faa", "https://whatever.com")
