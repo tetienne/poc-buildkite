@@ -103,7 +103,7 @@ idna==2.10; python_version >= "2.7" and python_full_version < "3.0.0" or python_
 importlib-metadata==2.1.1; python_full_version >= "3.6.1" and python_version < "3.8" and python_version >= "3.6" and (python_version >= "2.7" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.5.0" and python_version < "3.8") and (python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.5.0" and python_version < "3.8" and python_version >= "3.6") and (python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6") or python_version < "3.8" and python_version >= "3.6" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6") and python_full_version >= "3.5.0") \
     --hash=sha256:c2d6341ff566f609e89a2acb2db190e5e1d23d5409d6cc8d2fe34d72443876d4 \
     --hash=sha256:b8de9eff2b35fb037368f28a7df1df4e6436f578fa74423505b6c6a778d5b5dd
-importlib-resources==3.3.0; python_version < "3.7" and python_full_version >= "3.6.1" \
+importlib-resources==3.3.1; python_version < "3.7" and python_full_version >= "3.6.1" \
     --hash=sha256:a3d34a8464ce1d5d7c92b0ea4e921e696d86f2aa212e684451cb1482c8d84ed5 \
     --hash=sha256:7b51f0106c8ec564b1bef3d9c588bc694ce2b92125bbb6278f4f2f5b54ec3592
 iniconfig==1.1.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6" \
